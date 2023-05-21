@@ -330,6 +330,7 @@ async function deleteBook(bookId) {
       hapus buku yang ada di http://localhost:3333/books/:id dengan method DELETE
       id buku yang akan dihapus dikirimkan sebagai parameter function
     */
+    //const url = `http://localhost:3333/books/${bookId.id}`;
     const url = `http://localhost:3333/books/1`;
 
     const response = await fetch(url, {
